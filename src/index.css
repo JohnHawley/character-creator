@@ -4,6 +4,18 @@ body,
   height: 100%;
 }
 
+/* Perspecive artwork aid. */
+#root:before {
+  content: " ";
+  display: block;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: hsl(195deg, 20%, 86%);
+  height: 50%;
+}
+
 body {
   background-color: hsl(180deg, 25%, 92%);
   margin: 0;
@@ -12,7 +24,7 @@ body {
 *,
 *:before,
 *:after {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   box-sizing: border-box;
 }
 

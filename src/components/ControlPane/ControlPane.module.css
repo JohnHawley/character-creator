@@ -10,6 +10,15 @@
     to deal with it yet!
   */
   margin-bottom: 32px;
+
+
+  /* Layout */
+  /* max-width:50%; */
+
+  /* move above the character drawing */
+  position: relative;
+  /* z-index:1; */
+
 }
 
 .title {

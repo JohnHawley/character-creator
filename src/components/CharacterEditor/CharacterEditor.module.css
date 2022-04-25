@@ -1,6 +1,9 @@
 .characterEditor {
   padding-top: 128px;
   padding-bottom: 64px;
+
+  postion:relative;
+  
 }
 
 .maxWidthWrapper {
@@ -8,6 +11,7 @@
 
 .header {
   padding-bottom: 64px;
+  max-width:65%;
 }
 
 .title {
@@ -24,7 +28,13 @@
 }
 
 .characterWrapper {
+  width:50%;
+  position: fixed;
+  right: 0;
+  top: 100px;
+  min-height:500px;
 }
 
 .controlColumn {
+  width: 50%;
 }
